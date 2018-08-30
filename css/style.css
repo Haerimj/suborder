@@ -46,8 +46,10 @@ h1, h2, h3, h4, h5, h6{
   font-size: 8rem; 
   color: #009132;
   font-family: "jua";
-  grid-column: 3/ span 7;
+  grid-column: 6/ span 8;
   grid-row: 1/2;
+  margin-top: 5cm;
+  margin-bottom: 0;
 }
 /* 웨더 앱 소개 */
 .description{
@@ -56,19 +58,21 @@ h1, h2, h3, h4, h5, h6{
   font-size: 3rem;
   font-family: "jua";
   line-height: 1.5;
-  grid-column: 3/ span 7;
-  grid-row: 3/3;
+  grid-column: 6/ span 7;
+  grid-row: 1/2;
+  margin-top: 360px;
 }
 .description span{
   display: block;
 }
 /* 앱 소개 이미지 */
 .image-wrapper{
-  grid-column: 4/ span 6;
-  grid-row: 2/3;
+  grid-column: 2/ span 5;
+  grid-row: 1/2;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1cm;
+  margin-top: 1cm;
 }
 .image-wrapper img{
   max-width: 80%;
@@ -76,11 +80,11 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .video {
-  grid-column: 3/ span 6;
-  grid-row: 2/3;
-  margin-left: 111px;
+  grid-column: 2/ span 5;
+  grid-row: 1/2;
+  margin-left: 21px;
   margin-right: auto;
-  margin-top:64px;
+  margin-top:90px;
   margin-bottom: 1cm;
 }
 
